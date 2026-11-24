@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTML Page</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+    </style>
 </head>
 <body>
-
     <h1>Dilidil Gebreselassie</h1>
 
     <p>
-        Hello! My name is Dilidil Gebreselassie. I am studying web development
-        and learning HTML.
+        Hello! My name is Dilidil Gebreselassie. I am learning web development and HTML.
     </p>
 
-    <img src="myphoto.jpg" alt="Photo of Your Name" width="200">
+    <img src="myphoto.jpg" alt="Photo of Dilidil Gebreselassie" width="200">
 
     <h2>My Hobbies</h2>
     <ul>
         <li>Reading</li>
-        <li>exploring nature</li>
-        <li>gardening</li>
+        <li>Exploring nature</li>
+        <li>Gardening</li>
     </ul>
 
     <h2>Favorite Website</h2>
     <a href="https://www.laurea.fi">Visit Laurea</a>
 
     <h2>My Courses</h2>
-    <table border="1">
+    <table>
         <tr>
             <th>Course</th>
             <th>Status</th>
@@ -45,7 +52,6 @@
     </table>
 
     <h2>Contact Form</h2>
-
     <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
@@ -57,6 +63,5 @@
 
         <input type="submit" value="Submit">
     </form>
-
 </body>
 </html>
