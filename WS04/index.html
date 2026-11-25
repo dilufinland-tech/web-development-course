@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+        <link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+       body {
+        background-color: lightgray;
+    }
+
+    h1 {
+        color: green;
+        font-size: 2em;
+    }
+
+    p {
+        color: blue;
+    } 
+        table {
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    form {
+        max-width: 400px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background-color: white;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"] {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }</style>
+</head>
+<body>
+    <header>
+    <h1>Dilidil Gebreselassie</h1>
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+<section id="about">
+    <p>
+        Hello! My name is Dilidil Gebreselassie. I am learning web development and HTML.
+    </p>
+<div class="content-box">
+        <ul class="pseudo-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h3>A Little About Me</h3>
+    <p>I am learning how to style web pages with CSS.</p>
+</div>
+       <img src="myphoto.jpg" alt="Photo of Dilidil Gebreselassie" width="200" class="filter-image">
+<button class="transition-button">Hover me</button>
+<div class="animation-box"></div>
+<blockquote class="quote">
+    This is a sample quote.
+</blockquote>
+</section>
+
+<section id="hobbies">
+     <h2 style="color: red;">My Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Exploring nature</li>
+        <li>Gardening</li>
+    </ul>
+        </section>
+<h2>Grid Layout</h2>
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+</div>
+<h2>Flexbox Layout</h2>
+<div class="flex-container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+<h2>Responsive Box</h2>
+<div class="responsive-box">Resize the window to see the effect</div>
+    <h2>Favorite Website</h2>
+    <a href="https://www.laurea.fi">Visit Laurea</a>
+
+    <h2>My Courses</h2>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Project Management</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Database Systems</td>
+            <td>Ongoing</td>
+        </tr>
+    </table>
+<section id="contact">
+    <h2>Contact Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+    </body>
+    </html>
