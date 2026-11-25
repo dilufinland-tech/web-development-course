@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+        <link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+       body {
+        background-color: lightgray;
+    }
+
+    h1 {
+        color: green;
+        font-size: 2em;
+    }
+
+    p {
+        color: blue;
+    } 
+        table {
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    form {
+        max-width: 400px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background-color: white;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"] {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }</style>
+</head>
+<body>
+    <h1>Dilidil Gebreselassie</h1>
+
+    <p>
+        Hello! My name is Dilidil Gebreselassie. I am learning web development and HTML.
+    </p>
+<div class="content-box">
+    <h3>A Little About Me</h3>
+    <p>I am learning how to style web pages with CSS.</p>
+</div>
+    <img src="myphoto.jpg" alt="Photo of Dilidil Gebreselassie" width="200">
+
+     <h2 style="color: red;">My Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Exploring nature</li>
+        <li>Gardening</li>
+    </ul>
+
+    <h2>Favorite Website</h2>
+    <a href="https://www.laurea.fi">Visit Laurea</a>
+
+    <h2>My Courses</h2>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Project Management</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Database Systems</td>
+            <td>Ongoing</td>
+        </tr>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
